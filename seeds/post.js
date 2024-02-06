@@ -2,29 +2,28 @@ const { Post } = require('../models');
 
 const postData = [
     {
-        title: "Ethereum Extends Gains to Rise 8%; Bitcoin Firms",
-        content: "Cryptocurrency Ethereum extended gains to rise more than 8% on Monday to $2,587 but remained 40% below a record high of above $4,300 hit earlier this month. At 1153 GMT, it was trading up 7.4% at $2,565.69. Larger rival Bitcoin also gained in its wake with the world's biggest and best-known cryptocurrency rising 3.7% to $36,977 in quiet trading with London and U.S. markets shut for holidays.",
+        title: "Women in Tech",
+        content: "Smart, savvy, and innovative women, in particular, have made this transition—from Ellen Pao, CEO of the nonprofit Project Include (formerly COO of Reddit), to Ann Mei Chang, CEO of the nonprofit Candid (formerly Senior Engineering Director at Google), and Nabiha Syed, CEO of media nonprofit The Markup (formerly VP and Associate General Counsel at Buzzfeed).",
         user_id: 1
     },
     {
-        title: "npm 7 is the latest and the greatest!",
-        content: "npm 7 was just published as latest to the npm registry last week, and it’s now the default version you get when you run npm install --global npm. Workspaces – By far the most-requested feature by npm users everywhere, this new set of npm CLI features lets you manage multiple packages from within a singular, top-level root package.",
+        title: "Cisco Puts Identity at the Heart of Its Security Strategy & Uses AI to Simplify Operations",
+        content: "At its core, identity intelligence revolves around the understanding and management of identity information within an organization. This includes not only the who and what of access, but also the when, where, and how of interactions between systems and data. By leveraging identity intelligence, organizations gain a clear picture of potential vulnerabilities and threats based on identity behaviors and access patterns.",
         user_id: 2
     },
     {
-        title: "Chrome will soon warn you when you might not want to trust an extension",
-        content: "A Google is rolling out new safety features for Chrome which are designed to make it easier to spot dubious downloads and extensions. They build upon the browser’s Enhanced Safe Browsing feature, which launched last year to offer better warnings against phishing sites. In order to be trusted, extensions need to come from a developer that has followed Google’s Developer Program Policies.",
+        title: "Inventing Tech To See & Treat Cancer",
+        content: "Dr. Sam Mazin is a computer engineer and the inventor of game-changing technology which fights cancer. RefleXion Medical, his company, has developed a revolutionary machine which can see and treat cancer. Previously, this was done using different technologies. Sam shares his journey, from a kid who was crazy about math and science to pursuing computer engineering at a university which offers a special program which alternates between 4-month study and work placements.",
         user_id: 2
-
     },
     {
-        title: "Have autonomous robots started killing in war?",
-        content: "Elke Schwarz, a senior lecturer in political theory at Queen Mary University London who’s affiliated with the International Committee for Robot Arms Control, tells The Verge that discussions like this show we need to move beyond “slippery and political” debates about definitions and focus on the specific functionality of these systems. What do they do and how do they do it?",
+        title: "IBM’s patent dominance in AI innovation",
+        content: "Despite OpenAI being an AI pioneer, it did not even make the top 25 of the list, with only one patent application registered by IFI CLAIMS. The very modest number of patent applications by OpenAI may reflect a strategic choice to focus on protecting its intellectual property through means other than patents, such as trade secrets or copyrights, which can offer protection without requiring disclosure. This approach would allow OpenAI to maintain a level of secrecy around certain innovations while still contributing to the broader AI community through open-source projects and collaborations.?",
         user_id: 5
     },
     {
-        title: "Google is making it harder for Android apps to track you once you’ve opted out",
-        content: "It’s going to get harder for Android apps to track users who’ve opted out of receiving personalized ads, the Financial Times reports, after Google announced changes to how it’ll handle the unique device identifiers that allow marketers to track them between apps. Starting later this year, Google is cutting off access to these “Advertising IDs” after a user opts out, and will show developers a “string of zeros” in its place.",
+        title: "WhatsApp Chats Will Soon Work With Other Encrypted Messaging Apps",
+        content: "For about the past two years, WhatsApp has been building a way for other messaging apps to plug themselves into its service and let people chat across apps—all without breaking the end-to-end encryption it uses to protect the privacy and security of people’s messages. The move is the first time the chat app has opened itself up this way, and it potentially offers greater competition.",
         user_id: 4
     }
 ]

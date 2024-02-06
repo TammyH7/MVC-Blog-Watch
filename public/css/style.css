@@ -5,7 +5,13 @@
 }
 
 header, .project:not(:last-child) {
+  padding: 2rem;
   border-bottom: 1px solid #ccc;
+  background-image: linear-gradient(
+    to right,
+    rgba(67, 50, 118, 0.81),
+    rgb(235, 112, 240)
+  )
 }
 
 .wrapper{
@@ -28,17 +34,17 @@ header, .project:not(:last-child) {
 }
 
 .logo:link{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .logo:visited{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .logo:hover{
-  color: black;
+  color: white;
   text-decoration: none;
   opacity: 0.7;
   transition: 0.5s ease-in-out;
@@ -50,9 +56,8 @@ header, .project:not(:last-child) {
   position: relative;
   list-style-type: none;
   margin: 0;
-  font-size: 1.5em;
-  
-  
+  font-size: 2em;
+  color: white 
 }
 
 .navbar a{
@@ -67,7 +72,7 @@ header, .project:not(:last-child) {
 
 .navbar a:hover{
   text-decoration: none;
-  color: inherit;
+  color:#95e0f3;
 }
 
 .post{
@@ -77,30 +82,36 @@ header, .project:not(:last-child) {
 }
 
 .post-title{
-  background-color: lightgrey;
+  background-image: linear-gradient(
+    to right,
+    rgb(67, 50, 118),
+    rgb(235, 112, 240)
+  );
   padding: 15px;
   margin-top: 0;
   text-align: left;
 }
 
 .post-title a:link{
-  color: #617ab7;
+  color: white;
   text-decoration: none;
 }
 
 .post-title a:visited{
-  color: #617ab7;
+  color:#95e0f3;
   text-decoration: none;
 }
 
 .post-title a:hover{
   text-decoration: none;
-  color: #0e506e;
+  color: rgb(113, 180, 243);
 }
 
 .post-content{
-  padding: 10px !important;
-  text-align: left !important;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  background-color: lightcyan;
 }
 
 .post-button{
@@ -115,6 +126,7 @@ header, .project:not(:last-child) {
   margin-right: 20px;
   margin-bottom: 20px;
   font-style: italic;
+  font-size: 20px;
 }
 
 .post-username{
@@ -189,6 +201,7 @@ header, .project:not(:last-child) {
   margin-top: 20px;
   margin-left: 10px;
 }
+
 .dashboard-post{
   border: 1px #d3d3d3 solid;
 }
@@ -200,4 +213,5 @@ header, .project:not(:last-child) {
 footer{
   margin-top: 60px;
   font-size: 1.4em;
+  text-align: center;
 }
